@@ -1,5 +1,8 @@
 package com.test.entity;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class TreeEntity<T> {
 
 	private TreeEntity<T> parent;
